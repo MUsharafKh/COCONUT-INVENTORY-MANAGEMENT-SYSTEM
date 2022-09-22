@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CoconutPages\AddNewCoconutCategory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CoconutPages\AddNewSale.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CoconutPages\Coconut_Categories.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CoconutPages\Coconut_Sales.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CustomerPages\AddCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CustomerPages\Customers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CustomerPages\UpdateCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\EmployeePages\AddEmployee.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\EmployeePages\Employees.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\EmployeePages\UpdateEmployee.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\HuskPages\AddNewHusk.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\HuskPages\AddNewHuskProduction.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\HuskPages\AddNewHuskSale.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\HuskPages\Husk.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\HuskPages\Husk_Production.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\HuskPages\Husk_Sales.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PurchasesPages\AddNewPurchase.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PurchasesPages\Purchases.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SupplierPages\AddSuplier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SupplierPages\Suppliers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SupplierPages\UpdateSupplier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CoconutPages\AddNewCoconutCategory.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CoconutPages\AddNewSale.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CoconutPages\Coconut_Categories.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CoconutPages\Coconut_Sales.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CustomerPages\AddCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CustomerPages\Customers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CustomerPages\UpdateCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\EmployeePages\AddEmployee.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\EmployeePages\Employees.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\EmployeePages\UpdateEmployee.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HuskPages\AddNewHusk.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HuskPages\AddNewHuskProduction.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HuskPages\AddNewHuskSale.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HuskPages\Husk.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HuskPages\Husk_Production.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HuskPages\Husk_Sales.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PurchasesPages\AddNewPurchase.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PurchasesPages\Purchases.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SupplierPages\AddSuplier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SupplierPages\Suppliers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SupplierPages\UpdateSupplier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+CREATE DATABASE Coco_Master;
+create table Employee(EmployeeId varchar(20) not null primary key,EmployeeName varchar(100) not null ,EmplyeeType varchar(100) not null,EmployeeContact int ,EmployeeSalary INT ,EmployeeAddress varchar(100));
+create table Expenses(ExpensId varchar(20) not null primary key,ExpensType varchar(100) not null ,ExpensAmmount INT not null,ExpensDate date not null);
+create table Supplier(SupplierID varchar(20) not null primary key,SupplierName varchar(100) not null,SupplierAddress varchar(100),SupplierContact int);
+create table Customer(CustomerId varchar(20) not null primary key,CustomerName varchar(100) not null,CustomerType varchar(100) not null,CustomerAddress varchar(100),CustomerContact int);
+create table CoconutCategory(Id varchar(20) primary key not null,Name varchar(100),Stocks int not null,UnitPrice INT not null);
+create table Husk(id varchar(20) not null primary key,Stocks int,unitPrice INT null,Quantity int not null);
+create table Purchases(Id varchar(20) not null primary key,SupleirId varchar(20),FOREIGN KEY (SupleirId) REFERENCES Supplier(SupplierID),CoconutCategoryID varchar(20),foreign key (CoconutCategoryID) references CoconutCategory(ID),PurchaseAmmount int not null ,Quantity int not null,PurchaseDate date);
+create table CoconutSales(SalesId varchar(20) not null primary key,CoconutCategoryID varchar(20) ,foreign key (CoconutCategoryID) references CoconutCategory(ID),CustomerID varchar(20) ,foreign key (CustomerID) references Customer(CustomerID),SalesAmmount INT not null,Quantity int not null ,SaleDate date);
+create table HuskSales(id varchar(20) not null primary key ,CustomerID varchar(20) foreign key (CustomerID) references Customer(CustomerID),HuskId varchar(20), foreign key (HuskId) references Husk(Id),UnitPrice int not null ,Quantity int not null,Total int,SalesDate Date);
+create table HuskProduction(id varchar(20) not null primary key,EmployeeId varchar(20) foreign key (EmployeeId) references Employee(EmployeeId),HuskId varchar(20), foreign key (HuskId) references Husk(Id),Quantity int not null,Rate int not null,Sates Varchar(50),ProductDate date);
+create table LoginInfo(LoginId int IDENTITY(1,1) not null primary key,Username varchar(50) not null,Password varchar(50) not null);

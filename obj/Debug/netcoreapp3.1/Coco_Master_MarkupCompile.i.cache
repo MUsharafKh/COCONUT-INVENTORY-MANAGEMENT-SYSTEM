@@ -1,0 +1,20 @@
+﻿Coco_Master
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\
+Coco_Master
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\Admin\Desktop\New folder\Coco_Master\App.xaml
+23372937003
+
+312021540727
+195-1583758293
+Login.xaml;MainWindow.xaml;Pages\CoconutPages\AddNewCoconutCategory.xaml;Pages\CoconutPages\AddNewSale.xaml;Pages\CoconutPages\Coconut_Categories.xaml;Pages\CoconutPages\Coconut_Sales.xaml;Pages\CustomerPages\AddCustomer.xaml;Pages\CustomerPages\Customers.xaml;Pages\CustomerPages\UpdateCustomer.xaml;Pages\EmployeePages\AddEmployee.xaml;Pages\EmployeePages\Employees.xaml;Pages\EmployeePages\UpdateEmployee.xaml;Pages\HuskPages\AddNewHusk.xaml;Pages\HuskPages\AddNewHuskProduction.xaml;Pages\HuskPages\AddNewHuskSale.xaml;Pages\HuskPages\Husk.xaml;Pages\HuskPages\Husk_Production.xaml;Pages\HuskPages\Husk_Sales.xaml;Pages\PurchasesPages\AddNewPurchase.xaml;Pages\PurchasesPages\Purchases.xaml;Pages\SupplierPages\AddSuplier.xaml;Pages\SupplierPages\Suppliers.xaml;Pages\SupplierPages\UpdateSupplier.xaml;
+
+True
+

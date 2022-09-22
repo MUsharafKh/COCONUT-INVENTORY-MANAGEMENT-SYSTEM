@@ -1,0 +1,425 @@
+﻿<Window x:Class="Coco_Master.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coco_Master"
+        mc:Ignorable="d"
+        Title="Login" Height="600" Width="760" 
+        ResizeMode="NoResize"
+        Background="{x:Null}"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <!--Log In Button-->
+        <SolidColorBrush x:Key="Button.Static.Background1" Color="#FF1BA4D1"/>
+        <SolidColorBrush x:Key="Button.Static.Border1" Color="White"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background1" Color="#FF1075AE"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border1" Color="White"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background1" Color="#FF094D74"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border1" Color="White"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background1" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border1" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground1" Color="#FF838383"/>
+        <Style x:Key="LogInButton" TargetType="{x:Type Button}">
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="4"
+                          Direction="330"
+                          Color="#FF2A9BB4"
+                          Opacity="0.5"
+                          BlurRadius="4"
+                           />
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual1}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background1}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border1}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border CornerRadius="15" x:Name="border" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background1}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border1}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background1}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border1}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background1}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border1}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground1}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+ <!--Username-->
+        <SolidColorBrush x:Key="TextBox.Static.Border1" Color="#FFABAdB3"/>
+        <SolidColorBrush x:Key="TextBox.MouseOver.Border1" Color="#FF7EB4EA"/>
+        <SolidColorBrush x:Key="TextBox.Focus.Border1" Color="#FF569DE5"/>
+        <Style x:Key="TextBoxStyle1" TargetType="{x:Type TextBox}">
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="4"
+                          Direction="330"
+                          Color="Black"
+                          Opacity="0.5"
+                          BlurRadius="4"
+                           />
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource TextBox.Static.Border1}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="AllowDrop" Value="true"/>
+            <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst"/>
+            <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Border CornerRadius="5" x:Name="border" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" SnapsToDevicePixels="True">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Opacity" TargetName="border" Value="0.56"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource TextBox.MouseOver.Border1}"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource TextBox.Focus.Border1}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsInactiveSelectionHighlightEnabled" Value="true"/>
+                        <Condition Property="IsSelectionActive" Value="false"/>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="SelectionBrush" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}"/>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+        <SolidColorBrush x:Key="TextBox.Static.Border2" Color="#FFABAdB3"/>
+        <SolidColorBrush x:Key="TextBox.MouseOver.Border2" Color="#FF7EB4EA"/>
+        <SolidColorBrush x:Key="TextBox.Focus.Border2" Color="#FF569DE5"/>
+
+        <!--Password-->
+        <Style x:Key="PasswordBoxStyle1" TargetType="{x:Type PasswordBox}">
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="4"
+                          Direction="330"
+                          Color="Black"
+                          Opacity="0.5"
+                          BlurRadius="4"
+                           />
+                </Setter.Value>
+            </Setter>
+            <Setter Property="PasswordChar" Value="●"/>
+            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource TextBox.Static.Border2}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="AllowDrop" Value="true"/>
+            <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst"/>
+            <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type PasswordBox}">
+                        <Border CornerRadius="5" x:Name="border" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" SnapsToDevicePixels="True">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Opacity" TargetName="border" Value="0.56"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource TextBox.MouseOver.Border2}"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource TextBox.Focus.Border2}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsInactiveSelectionHighlightEnabled" Value="true"/>
+                        <Condition Property="IsSelectionActive" Value="false"/>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="SelectionBrush" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}"/>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="20">
+        
+        <!--Login-->
+        <Grid x:Name="loginGrid" Visibility="Visible">
+            <Border x:Name="borderMask" CornerRadius="15" Background="White" BorderThickness="1" BorderBrush="#FF8B12D1"/>
+            <Border x:Name="borderMain" Background="Transparent" Margin="0">
+                <Border.OpacityMask>
+                    <VisualBrush Visual="{Binding ElementName=borderMask}"/>
+                </Border.OpacityMask>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border CornerRadius="15 0 0 15" Background="#FF2A9BB4">
+                        <Grid>
+
+
+                            <StackPanel Margin="0 10 0 0">
+                                <Border Width="80" Height="80" Padding="3" Background="White" CornerRadius="100"
+                                    HorizontalAlignment="Center">
+                                    <Ellipse>
+                                        <Ellipse.Fill>
+                                            <ImageBrush ImageSource="/Images/Asset 1.png"/>
+                                        </Ellipse.Fill>
+                                    </Ellipse>
+                                </Border>
+                                <TextBlock Text="Coco Master" FontSize="30" HorizontalAlignment="Center" FontWeight="SemiBold" 
+                                           Foreground="White"/>
+
+                                <Separator Margin="25 20 25 0" Height="1" Background="White"/>
+
+                                <Label Content="Welocome Back!" HorizontalAlignment="Center" Margin="0 80 0 0" FontSize="30" 
+                                       Foreground="White"/>
+
+                                <TextBlock Text="Don't have an account ?" HorizontalAlignment="Center" Foreground="White" 
+                                           Margin="0 20 0 0"/>
+
+                                <Button Style="{DynamicResource LogInButton}" x:Name="btnNewAccount" Content="Create Account" 
+                                    
+                                        Width="200" Height="53" 
+                                        Margin="0 20 0 0" FontSize="18" ToolTip="Create new user account"  
+                                        Click="btnNewAccount_Click" Background="#FF2A9BB4"/>
+
+                                <TextBlock Text="@Khan soft" FontSize="18" Margin="100,60,0,10" Foreground="White" FontStyle="Oblique" FontFamily="Tahoma" FontWeight="Bold"/>
+                                <TextBlock Text="musharf226@gmail.com" FontSize="18" Margin="60,0,0,10" Foreground="White" FontStyle="Oblique" FontFamily="Tahoma" FontWeight="Bold"/>
+
+                            </StackPanel>
+
+
+
+                        </Grid>
+
+                    </Border>
+
+
+                    <Grid Grid.Column="1">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Button x:Name="btnClose" Style="{DynamicResource ButtonStyle1}" Margin="0 7 8 0" Width="20" Height="20" 
+                                HorizontalAlignment="Right" VerticalAlignment="Top" Click="btnClose_Click" ToolTip="Close">
+                        </Button>
+
+                        <Border Grid.Row="1" Background="White" CornerRadius="20 20 15 15 " Margin="1">
+                            <Grid>
+                                <StackPanel Margin="0,150,0,0"  >
+                                    <TextBlock Text="User Name" FontSize="18" Margin="50,0,0,10" Foreground="Black" FontWeight="SemiBold"/>
+                                    <TextBox Style="{DynamicResource TextBoxStyle1}" x:Name="txtUserName" Width="320" Height="45" 
+                                             FontSize="18" Foreground="Black" 
+                                             Margin="0,0,0,0"
+                                             Padding="10" GotFocus="txtUserName_GotFocus"/>
+
+                                    <TextBlock Text="Password" FontSize="18" Margin="50,20,0,10" Foreground="Black" FontWeight="SemiBold"/>
+                                    <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" x:Name="txtPassword" Width="320" 
+                                                 Height="45" FontSize="18" Foreground="Black" Margin="0 10 0 0"
+                                                 Padding="10" GotFocus="txtPassword_GotFocus"/>
+
+                                    <TextBlock x:Name="txtHint" Margin="0 5 60 0 " Width="auto" Height="auto" 
+                                               FontSize="10" HorizontalAlignment="Right" Foreground="Red"/>
+
+
+                                    <Button Style="{DynamicResource LogInButton}" x:Name="btnLogin" Content="LOG IN" Width="200" Height="53" 
+                                            Margin="0 20 0 0" FontSize="18" ToolTip="Log into your account" Click="btnLogin_Click" 
+                                            Background="#FF2A9BB4" BorderBrush="Transparent"
+                                            KeyDown="btnLogin_KeyDown"/>
+
+
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+
+                    </Grid>
+
+
+                </Grid>
+
+
+
+            </Border>
+        </Grid>
+
+        <!--New Account-->
+        
+        <Grid x:Name="NewAccountGrid" Visibility='Hidden'>
+            <Border x:Name="borderMask1" CornerRadius="15" Background="White" BorderThickness="1" BorderBrush="#FF8B12D1"/>
+            <Border x:Name="borderMain1" Background="Transparent" Margin="0">
+                <Border.OpacityMask>
+                    <VisualBrush Visual="{Binding ElementName=borderMask}"/>
+                </Border.OpacityMask>
+
+
+
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="300"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Border Grid.Column="1" CornerRadius="0 15 15 0" Background="#FF2A9BB4">
+                        <Grid>
+
+                            <Button x:Name="btnClose1" Style="{DynamicResource ButtonStyle1}" Margin="0 7 8 0" Width="20" Height="20" 
+                                HorizontalAlignment="Right" VerticalAlignment="Top" Click="btnClose1_Click" ToolTip="Close">
+                            </Button>
+                            
+                            <StackPanel Margin="0 10 0 0">
+                                <Border Width="80" Height="80" Padding="3" Background="White" CornerRadius="100"
+                                    HorizontalAlignment="Center">
+                                    <Ellipse>
+                                        <Ellipse.Fill>
+                                            <ImageBrush ImageSource="/Images/Asset 1.png"/>
+                                        </Ellipse.Fill>
+                                    </Ellipse>
+                                </Border>
+                                <TextBlock Text="Coco Master" FontSize="30" HorizontalAlignment="Center" FontWeight="SemiBold" 
+                                           Foreground="White"/>
+
+                                <Separator Margin="25 20 25 0" Height="1" Background="White"/>
+
+                                <Label Content="Welocome!" HorizontalAlignment="Center" Margin="0 80 0 0" FontSize="30" 
+                                       Foreground="White"/>
+
+                                <TextBlock Text="Already have an account ?" HorizontalAlignment="Center" Foreground="White" 
+                                           Margin="0 20 0 0"/>
+
+                                <Button Style="{DynamicResource LogInButton}" x:Name="btnLog" Content="Log In" 
+                                        Width="200" Height="53" 
+                                        Margin="0 20 0 0" FontSize="18" ToolTip="Log in to existing account"  
+                                        Click="btnLog_Click" Background="#FF2A9BB4"/>
+
+
+                            </StackPanel>
+
+
+
+                        </Grid>
+
+                    </Border>
+
+
+                    <Grid Grid.Column="0">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Border Grid.Row="1" Background="White" CornerRadius="20 20 15 15 " Margin="1">
+                            <Grid>                                
+                                <StackPanel>
+                                    <TextBlock Text="User Name" FontSize="18" Margin="50,0,0,10" Foreground="Black" FontWeight="SemiBold"/>
+                                    <TextBox Style="{DynamicResource TextBoxStyle1}" x:Name="newUserName" Width="320" Height="45" 
+                                             FontSize="18" Foreground="Black" 
+                                             Margin="0,0,0,0"
+                                             Padding="10"
+                                             LostFocus="newUserName_LostFocus"
+                                             GotFocus="newUserName_GotFocus"/>
+                                    
+                                    <TextBlock x:Name="usernameHint" HorizontalAlignment="Right" Margin="0,0,60,0"  FontSize="10" 
+                                               Foreground="Red"/>
+
+                                    <TextBlock Text="Password" FontSize="18" Margin="50,10,0,10" Foreground="Black" FontWeight="SemiBold"/>
+                                    <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" x:Name="newPassword" Width="320" 
+                                                 Height="45" FontSize="18" Foreground="Black" Margin="0 10 0 0"
+                                                 Padding="10" LostFocus="newPassword_LostFocus"
+                                                 GotFocus="newPassword_GotFocus" />
+                                    <TextBlock x:Name="passwordHint" FontSize="10" HorizontalAlignment="Right" 
+                                               Foreground="Red" Margin="0,0,60,0"/>
+                                    
+                                    <TextBlock Text="Confirm Password" FontSize="18" Margin="50,10,0,10" Foreground="Black" FontWeight="SemiBold"/>
+                                    <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" x:Name="confirmPassword" Width="320" 
+                                                 Height="45" FontSize="18" Foreground="Black" Margin="0 10 0 0"
+                                                 Padding="10" LostFocus="confirmPassword_LostFocus"
+                                                 GotFocus="confirmPassword_GotFocus"/>
+                                    <TextBlock x:Name="confirmPasswordHint" FontSize="10" HorizontalAlignment="Right" 
+                                               Foreground="Red" Margin="0,0,60,0"/>
+
+                                    <TextBlock Text="Admin Password" FontSize="18" Margin="50,10,0,10" Foreground="Black" FontWeight="SemiBold"/>
+                                    <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" x:Name="adminPassword" Width="320" 
+                                                 Height="45" FontSize="18" Foreground="Black" Margin="0 10 0 0"
+                                                 Padding="10" GotFocus="adminPassword_GotFocus"/>
+
+                                    <TextBlock x:Name="AdminPasswordHint" FontSize="10" HorizontalAlignment="Right" 
+                                               Foreground="Red" Margin="0,0,60,0"/>
+
+
+                                    <Button Style="{DynamicResource LogInButton}" x:Name="createNewAccount" Content="CREATE ACCOUNT" 
+                                            Width="200" 
+                                            Height="53" 
+                                            Margin="0 20 0 0" FontSize="18" ToolTip="Create new account" Click="createNewAccount_Click" 
+                                            Background="#FF2A9BB4" BorderBrush="Transparent"
+                                            KeyDown="btnLogin_KeyDown"/>
+                                   
+
+
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+
+                    </Grid>
+
+
+                </Grid>
+
+
+
+            </Border>
+        </Grid>
+        
+    </Grid>
+</Window>

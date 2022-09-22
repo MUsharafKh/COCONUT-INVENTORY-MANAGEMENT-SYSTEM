@@ -1,0 +1,150 @@
+D:\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.exe
+D:\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.dll.config
+D:\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.deps.json
+D:\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.runtimeconfig.json
+D:\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.runtimeconfig.dev.json
+D:\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.dll
+D:\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.pdb
+D:\Coco_Master\bin\Debug\netcoreapp3.1\MahApps.Metro.IconPacks.Core.dll
+D:\Coco_Master\bin\Debug\netcoreapp3.1\MahApps.Metro.IconPacks.Material.dll
+D:\Coco_Master\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.csproj.AssemblyReference.cache
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Login.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\Coconut_Categories.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\Coconut_Sales.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\AddCustomer.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\Customers.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\UpdateCustomer.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\AddEmployee.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\Employees.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\UpdateEmployee.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk_Production.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk_Sales.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\PurchasesPages\Purchases.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\AddSuplier.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\Suppliers.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\UpdateSupplier.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master_MarkupCompile.cache
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master_MarkupCompile.lref
+D:\Coco_Master\obj\Debug\netcoreapp3.1\App.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Login.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\Coconut_Categories.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\Coconut_Sales.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\AddCustomer.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\Customers.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\UpdateCustomer.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\AddEmployee.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\Employees.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\UpdateEmployee.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk_Production.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk_Sales.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\PurchasesPages\Purchases.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\AddSuplier.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\Suppliers.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\UpdateSupplier.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.g.resources
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.AssemblyInfoInputs.cache
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.AssemblyInfo.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.csproj.CoreCompileInputs.cache
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.csproj.CopyComplete
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.dll
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.pdb
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.genruntimeconfig.cache
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\AddNewCoconutCategory.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\AddNewSale.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHusk.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHuskProduction.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHuskSale.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\PurchasesPages\AddNewPurchase.g.cs
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\AddNewCoconutCategory.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\AddNewSale.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHusk.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHuskProduction.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHuskSale.baml
+D:\Coco_Master\obj\Debug\netcoreapp3.1\Pages\PurchasesPages\AddNewPurchase.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.exe
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.dll.config
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.deps.json
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.runtimeconfig.json
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\Coco_Master.pdb
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Login.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\AddNewCoconutCategory.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\AddNewSale.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\Coconut_Categories.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\Coconut_Sales.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\AddCustomer.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\Customers.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\UpdateCustomer.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\AddEmployee.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\Employees.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\UpdateEmployee.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHusk.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHuskProduction.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHuskSale.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk_Production.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk_Sales.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\PurchasesPages\AddNewPurchase.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\PurchasesPages\Purchases.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\AddSuplier.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\Suppliers.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\UpdateSupplier.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master_MarkupCompile.cache
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master_MarkupCompile.lref
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Login.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\AddNewCoconutCategory.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\AddNewSale.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\Coconut_Categories.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CoconutPages\Coconut_Sales.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\AddCustomer.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\Customers.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\CustomerPages\UpdateCustomer.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\AddEmployee.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\Employees.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\EmployeePages\UpdateEmployee.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHusk.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHuskProduction.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\AddNewHuskSale.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk_Production.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\HuskPages\Husk_Sales.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\PurchasesPages\AddNewPurchase.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\PurchasesPages\Purchases.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\AddSuplier.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\Suppliers.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Pages\SupplierPages\UpdateSupplier.baml
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.g.resources
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.AssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.dll
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.pdb
+C:\Users\Admin\Desktop\New folder\Coco_Master\obj\Debug\netcoreapp3.1\Coco_Master.genruntimeconfig.cache

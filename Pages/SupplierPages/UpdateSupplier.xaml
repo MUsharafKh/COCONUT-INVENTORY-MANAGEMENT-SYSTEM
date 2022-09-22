@@ -1,0 +1,81 @@
+﻿<Window x:Class="Coco_Master.Pages.SupplierPages.UpdateSupplier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coco_Master.Pages.SupplierPages"
+        mc:Ignorable="d"
+        Title="UpdateSupplier" 
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Height="433" Width="450">
+
+    <Border CornerRadius="5" Background="White" BorderBrush="Purple" BorderThickness="1">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="30"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Header-->
+                <Grid Grid.Row="0" PreviewMouseLeftButtonDown="Grid_PreviewMouseLeftButtonDown">
+                    <TextBlock Text="Update Supplier" Foreground="Gray" Margin="20,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" FontFamily="Arial" Width="428" />
+
+                </Grid>
+
+                <Button x:Name="btnClose" Grid.Column="1" Style="{DynamicResource ButtonStyle1 }" Width="20" Height="20"
+                       Click="btnClose_Click" ToolTip="Close"/>
+
+            </Grid>
+
+
+            <!--row1-->
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel  Margin="15,15,15,0" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+
+                    <TextBlock Style="{DynamicResource TextBlockStyle1}" Text="ID : " Margin="12" Width="100" HorizontalAlignment="Left" Foreground="Gray" FontFamily="Calibri"/>
+                    <TextBox x:Name="txtId" Style="{DynamicResource TextBoxStyle1}" 
+                                 HorizontalContentAlignment="Left"/>
+
+                    <TextBlock Style="{DynamicResource TextBlockStyle1}" Text="Full Name : " Margin="12" Width="100" HorizontalAlignment="Left" Foreground="Gray" FontFamily="Calibri"/>
+                    <TextBox x:Name="txtName" Style="{DynamicResource TextBoxStyle1}"
+                                 HorizontalContentAlignment="Left"/>
+
+                    <TextBlock Style="{DynamicResource TextBlockStyle1}" Text="Contact No. : " Margin="12" Width="100" HorizontalAlignment="Left" Foreground="Gray" FontFamily="Calibri"/>
+                    <TextBox x:Name="txtContact" Style="{DynamicResource TextBoxStyle1}" 
+                                 HorizontalContentAlignment="Left"/>
+
+                    <TextBlock Style="{DynamicResource TextBlockStyle1}" Text="Address : " Margin="12 " Width="100" HorizontalAlignment="Left" Foreground="Gray" FontFamily="Calibri"/>
+                    <TextBox Name="txtAddress" Style="{DynamicResource TextBoxStyle1}"  HorizontalContentAlignment="Left"/>
+
+                </StackPanel>
+
+                <!--buttons-->
+
+                <WrapPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="224,17,0,0">
+                    <Button x:Name="btnUpdate" Style="{DynamicResource Save/Clear}" Content="Update" Margin="0,0,20,0" Width="60" Height="25"  
+                            Click="btnUpdate_Click"/>
+                    <Button x:Name="btnClear" Style="{DynamicResource Save/Clear}" Content="Clear" Width="60" Height="25" Click="btnClear_Click"/>
+
+                </WrapPanel>
+
+            </Grid>
+
+        </Grid>
+    </Border>
+
+</Window>
